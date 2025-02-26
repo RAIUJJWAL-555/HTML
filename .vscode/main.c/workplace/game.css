@@ -1,0 +1,115 @@
+/**;div { 
+    height: 150px; 
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+transform: scale(2);
+    
+}
+  div:hove
+background-color: red;height: 20px;
+width: 40px;
+font-size : 50px;
+color: red;
+transform: rotate(90deg);
+transform: skew(45deg);
+display : flex;
+position: absolute;
+right: 150px;
+} 
+div:active{
+    background-color: aqua;
+} */
+ body{
+  background-color: black;
+ }
+#container{
+  height: 100vh;
+  width: 100%;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+}
+  
+div{
+  height: 150px;
+  width: 150px;
+  background-color: chocolate;
+  border: 2px solid black;
+  border-radius: 10px  40px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#navbar {
+  height: 300px;
+  width: 100%;
+  display: inline-block;
+  margin-top: 0px;
+  background-color: rgba(9, 93, 93, 0.99);
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+a{
+  color: black;
+}
+button{
+  background-color: rgb(255, 183, 0);
+}
+#box1{
+  background-image:url("all\ games.jpg");
+  background-size: cover;
+  color: white;
+}
+#box2{
+  background-image: url("adventure.jpg");
+  background-size: cover;
+  color: white;
+}
+#box3{
+  background-image: url("car.jpeg");
+  background-size: cover;
+  color: white;
+}
+#box4{
+  background-image: url("cycle.jpeg");
+  background-size: cover;
+  color: white;
+}
+#box5{
+  background-image: url("shooting.jpg");
+  background-size: cover;
+  color: white;
+}
+/* #bottom{ 
+  background-color: black;
+  height: 100px;
+  width: 1420px;
+}*/
+footer{ 
+  background-color: black;
+  height: 100px;
+  width: 100vw;
+  text-align: center;
+  color: aliceblue;
+}
+#logo{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: url("logo2.png");
+  background-size: cover;
+  
+}

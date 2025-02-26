@@ -1,0 +1,146 @@
+/* *{ 
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px;
+}
+body{
+    background-color: black;
+}
+.white-box{
+    height: 650px;
+    width: 550px;
+    background-color:bisque;
+    margin-top: 100px;
+    margin-left: 480px;
+    border: 2px solid red;
+    padding: 20px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.brown-box{ 
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(69, 8, 8);
+    border: 18px solid rgb(151, 231, 33);
+    border-radius: 10px;
+
+
+}
+.box{
+
+    height: 300px;
+    width: 300px;
+
+}
+.car{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 16px;
+    left: 40px;
+    background-image: url(car.jpg);
+    background-size: cover;
+    animation-name: move;
+    animation-duration: 5s;
+    
+}
+@keyframes move{
+    0%{
+        left: 40px;
+        transform: rotate(0deg);
+    }
+    24.9%{
+        transform: rotate(0deg);
+    }
+    25%{
+        top:16px;
+        left: 300px;
+        transform: rotate(90deg);
+    }
+    50%{
+        top: 360px;
+        left: 330px;
+        transform: rotate(90deg);
+    }
+    50.1%{
+        transform: rotate(180deg);
+    }
+    74.99%{
+        top: 360px;
+        left: -40px;
+        transform: rotate(180deg);
+    }
+    75%{
+        left: -5px;
+        top:360px;
+        transform: rotate(180deg);
+    }
+    75.1%{
+        transform: rotate(270deg);
+    }
+    
+    100%{
+        transform: rotate(270deg);
+        top: 16px;
+        left: -5px;
+    }
+
+}*/
+.playground{
+    margin: 0 auto;
+    width: 420px;
+    height:420px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box{
+    width:300px;
+    height:300px;
+    background-color: lightgreen;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light{
+    width:80px;
+    height: 60%;
+    background-color: #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light__circle{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+
+}
+
+.light__circle--red{
+    box-shadow: inset 0 0 10px 4px #fc0303;
+}
+.light__circle--yellow{
+    box-shadow: inset 0 0 10px 4px #fcf403;
+}
+.light__circle--green{
+    box-shadow: inset 0 0 10px 4px #02e041;
+
+}
+img{
+    
+}

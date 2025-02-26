@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 48px;
+    width: 130px;
+    background-image: url("WhatsApp\ Image\ 2024-10-25\ at\ 09.10.23.jpeg");
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    height: 40px;
+}
+/* box2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.5rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+}
+.add-third{
+    color: #cccccc;
+    font-size:0.4rem;
+    margin-left: 10px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box-3  */
+.search-bar{
+    height: 40px;
+    width: 500px;
+    display: flex;
+    border:hover{
+        border:2px solid orange;
+    } 
+}
+
+
+.search-type{
+    width: 41px;
+    height: 40.8px;
+    background-color: white;
+    align-items: center;
+}
+.input{
+    height: 35px;
+    width: 420px;
+    font-size: large;
+}
+.icon{
+    height: 41px;
+    width: 45px;
+    background-color: rgb(255, 174, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: black;
+}
+/* box4 */
+/* box5 */
+/* box6 */
+.intro3{
+    font-size: larger;
+}
+.introA{
+    font-size: 0.75rem;
+}
+/* nav---2 */
+.navbar2{
+    width: 100%;
+    height: 40px;
+    background-color: #0e1c35f6;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.border2:hover{
+    border: 2px solid white;
+    height: 33px;
+}
+.box{
+    display: flex;
+}
+/* main content */
+.main{
+    background-image: url("mainimage.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.main-content{
+    height: 40px;
+    width: 95%;
+    background-color: rgba(197, 243, 243, 0.947);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    
+}
+.main-content a{
+    color: rgb(4, 96, 21);
+}
+/* <!-- middle order -- */
+.knox{
+    width: 23%;
+    height: 400px;
+    background-color: aliceblue;
+    border: none;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #14ada8f6;
+}
+.box1{
+
+}
+.green{
+    color: green;
+}
+.image1{
+    background-image: url("get\ your\ game.jpg");
+    background-size: cover;
+    height:300px;
+    margin: 20px;
+}
+.image2{
+    background-image: url("toys\ under\ $25.jpg");
+    background-size: cover;
+    height:300px;
+    margin: 20px;
+}
+.image3{
+    background-image: url("J24_GW_PC_CC_SAD_2x._SY608_CB545060597_.jpg");
+    background-size: cover;
+    height:300px;
+    margin: 20px;
+}
+.image4{
+    background-image: url("PC_CC_758x608_CEPC._SY608_CB545069641_.jpg");
+    background-size: cover;
+    height:300px;
+    margin: 20px;
+}
+/* footer */
+.fott{
+    background-color: #44505e;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.boz1{
+    height: 300px;
+    background-color: #182c43;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.help1{
+    margin-top: 20px;
+
+}
+.boz2{
+    height: 100px;
+    background-color: #182c43;
+}
+.boz3{
+    height: 153px;
+    background-color: #121011f6;
+}
+p{
+    font-size: 0.85rem;
+    color: #a7acb3;
+}
+.logo{
+    height: 40px;
+    width: 120px;
+    background-image: url('WhatsApp\ Image\ 2024-10-25\ at\ 09.10.23.jpeg');
+    background-size: cover;
+
+}

@@ -1,0 +1,59 @@
+body{ 
+    background-color: rgb(16, 17, 17);
+    background-size: cover;
+    display: flex;
+    margin-left: 850px;
+    margin-top:3%;
+}
+.plate{
+    /* background-image: url("anatherone.jpeg"); */
+    background-color: rgb(136, 10, 10);
+    background-size: cover;
+    height: 90vh;
+    width: 35vw;
+    border-radius: 5%;
+    border: 4px solid rgb(13, 12, 12);
+}
+
+h1{
+    font-size: 3.3rem;
+    color: black;
+    text-shadow: 0px 0px 20px white;
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 30px;
+    width: 70%;
+    margin-left: 72.5px; 
+    margin-top: 50px;
+    border-radius: 3px;
+}
+
+button{
+    height: 36.8px;
+    width: 40%;
+    margin-left: 151px;
+    margin-top: 50px;
+    background-color: blue;
+}
+a{
+    color: white;
+}
+.help{
+    margin-left: 130px;
+}
+.plate{
+    animation-name:move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+
+}
+/* @keyframes move{ 
+    from{
+    background-image: url("background.jpeg");
+}
+    to{ 
+    background-image: url("plate.jpeg");
+    }
+}

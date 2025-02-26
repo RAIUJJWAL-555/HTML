@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    background: #4e4ebf;
+    color: #9f9fd3;
+    height: 100vh;
+}
+.sidebar {
+    --color-primary: #4651ca;
+    position: fixed;
+    overflow: hidden;
+    top: 24px;
+    left: 24px;
+    width: 80px;
+    border-radius: 18px;
+    transition: width 0.4s;
+}
+.sidebar button {
+    border: 0;
+    background: #31315a;
+    font-size: 20px;
+    color: inherit;
+    border-radius: 8px;
+    font-family: inherit;
+    cursor: pointer;
+}
